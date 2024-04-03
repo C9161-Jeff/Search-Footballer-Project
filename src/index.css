@@ -31,6 +31,9 @@ body {
   overflow: hidden;
   & img {
     transition: transform 0.3s;
+    height: 100%;
+    width: 100%;
+    filter: sepia(5);
   }
   &:hover {
     box-shadow: 3px 3px 20px 5px rgb(0, 0, 0, 0.5);
